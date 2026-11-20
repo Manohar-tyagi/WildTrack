@@ -1,0 +1,155 @@
+[
+  {
+    "collarId": "COL-101",
+    "animalId": "T-01",
+    "batteryPercentage": 16,
+    "connectionStatus": "DISCONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T15:19:57.838Z",
+    "signalBars": 0
+  },
+  {
+    "collarId": "COL-102",
+    "animalId": "T-02",
+    "batteryPercentage": 11,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T19:49:57.846Z",
+    "signalBars": 3
+  },
+  {
+    "collarId": "COL-103",
+    "animalId": "T-03",
+    "batteryPercentage": 43,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T18:39:57.846Z",
+    "signalBars": 5
+  },
+  {
+    "collarId": "COL-104",
+    "animalId": "E-04",
+    "batteryPercentage": 95,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T19:44:57.846Z",
+    "signalBars": 5
+  },
+  {
+    "collarId": "COL-105",
+    "animalId": "E-05",
+    "batteryPercentage": 81,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T16:06:57.846Z",
+    "signalBars": 5
+  },
+  {
+    "collarId": "COL-106",
+    "animalId": "E-06",
+    "batteryPercentage": 15,
+    "connectionStatus": "DISCONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T19:22:57.846Z",
+    "signalBars": 0
+  },
+  {
+    "collarId": "COL-107",
+    "animalId": "L-07",
+    "batteryPercentage": 69,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T18:50:57.846Z",
+    "signalBars": 3
+  },
+  {
+    "collarId": "COL-108",
+    "animalId": "L-08",
+    "batteryPercentage": 92,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T19:40:57.846Z",
+    "signalBars": 5
+  },
+  {
+    "collarId": "COL-109",
+    "animalId": "R-09",
+    "batteryPercentage": 11,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T19:11:57.846Z",
+    "signalBars": 4
+  },
+  {
+    "collarId": "COL-110",
+    "animalId": "R-10",
+    "batteryPercentage": 92,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T15:27:57.846Z",
+    "signalBars": 5
+  },
+  {
+    "collarId": "COL-111",
+    "animalId": "S-11",
+    "batteryPercentage": 65,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T19:51:57.846Z",
+    "signalBars": 3
+  },
+  {
+    "collarId": "COL-112",
+    "animalId": "S-12",
+    "batteryPercentage": 44,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T17:52:57.846Z",
+    "signalBars": 4
+  },
+  {
+    "collarId": "COL-113",
+    "animalId": "S-13",
+    "batteryPercentage": 58,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T15:41:57.846Z",
+    "signalBars": 3
+  },
+  {
+    "collarId": "COL-114",
+    "animalId": "S-14",
+    "batteryPercentage": 63,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T14:01:57.846Z",
+    "signalBars": 5
+  },
+  {
+    "collarId": "COL-115",
+    "animalId": "S-15",
+    "batteryPercentage": 10,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T15:06:57.846Z",
+    "signalBars": 4
+  },
+  {
+    "collarId": "COL-116",
+    "animalId": "G-16",
+    "batteryPercentage": 90,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T17:10:57.846Z",
+    "signalBars": 3
+  },
+  {
+    "collarId": "COL-117",
+    "animalId": "G-17",
+    "batteryPercentage": 46,
+    "connectionStatus": "CONNECTED",
+    "firmware": "WT-FW 2.4.1",
+    "lastCommunicationAt": "2026-11-20T15:38:57.846Z",
+    "signalBars": 4
+  }
+]

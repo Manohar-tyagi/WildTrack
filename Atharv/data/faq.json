@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Q1",
+    "q": "What is WILD TRACK?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q2",
+    "q": "Is the data real?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q3",
+    "q": "How does MOVING/RESTING work?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q4",
+    "q": "What is STALE?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q5",
+    "q": "How is battery threshold set?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q6",
+    "q": "What are the movement thresholds?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q7",
+    "q": "How do alerts work?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q8",
+    "q": "Can I export data?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q9",
+    "q": "What is the Java OOP design?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q10",
+    "q": "What is encapsulation?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q11",
+    "q": "What is inheritance?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q12",
+    "q": "What is polymorphism?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q13",
+    "q": "What is abstraction?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q14",
+    "q": "What is overriding?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q15",
+    "q": "What are constructors?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q16",
+    "q": "How do I run it?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q17",
+    "q": "Does it work offline?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q18",
+    "q": "What are the limitations?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q19",
+    "q": "Future work?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  },
+  {
+    "id": "Q20",
+    "q": "How to replace images?",
+    "a": "Demo answer. See How it works and Help pages. Simulated sample data only."
+  }
+]
