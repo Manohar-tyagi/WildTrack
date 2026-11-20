@@ -5,6 +5,16 @@
 window.WT = window.WT || {};
 WT.DATA = WT.DATA || {};
 
+// Seeded PRNG for reproducible demo data
+(function(){
+  let seed = 12345;
+  const rnd = () => { seed = (seed*9301+49297)%233280; return seed/233280; };
+  // override Math.random for the seed window (data generation only)
+  const orig = Math.random;
+  Math.random = rnd;
+  WT._restoreMathRandom = () => { Math.random = orig; };
+})();
+
 // Configurable demo settings (marked as demo values where applicable)
 WT.CONFIG = {
   staleTimeoutMinutes: 30,        // demo value: reports older than this are STALE
@@ -200,6 +210,50 @@ WT.generateAlerts = function(){
   WT.DATA.alerts = alerts;
 };
 WT.generateAlerts();
+
+// Restore Math.random
+if(WT._restoreMathRandom) WT._restoreMathRandom();
+
+// Fallback embedded data for offline (file://) when JSON fetch fails
+(function ensureFallbackData(){
+  if(!WT.DATA.reserves || !WT.DATA.reserves.length){
+    WT.DATA.reserves = [
+      {id:"R1",name:"Ranthambore National Park",lat:26.02,lng:76.50,area:392,desc:"Tiger reserve in Rajasthan."},
+      {id:"R2",name:"Sariska Tiger Reserve",lat:27.33,lng:76.33,area:881,desc:"Tiger reserve in Alwar."},
+      {id:"R3",name:"Jim Corbett National Park",lat:29.53,lng:78.94,area:1318,desc:"Oldest national park, Uttarakhand."},
+      {id:"R4",name:"Kaziranga National Park",lat:26.58,lng:93.17,area:430,desc:"One-horned rhino, Assam."},
+      {id:"R5",name:"Bandipur National Park",lat:11.66,lng:76.62,area:874,desc:"Tiger reserve, Karnataka."},
+      {id:"R6",name:"Pench National Park",lat:21.65,lng:79.30,area:758,desc:"Madhya Pradesh tiger reserve."}
+    ];
+  }
+  if(!WT.DATA.collars || !WT.DATA.collars.length){
+    WT.DATA.collars = (WT.DATA.animals||[]).map((a,i)=>({collarId:a.collarId,animalId:a.animalId,batteryPercentage:Math.max(5,80-i*3),connectionStatus:i%7===0?"DISCONNECTED":(i%5===0?"UNKNOWN":"CONNECTED"),firmware:"WT-FW 2.4.1",lastCommunicationAt:new Date().toISOString(),signalBars:4}));
+  }
+  if(!WT.DATA.usecases || !WT.DATA.usecases.length){
+    WT.DATA.usecases = [{slug:"use-case-1",title:"Tiger corridor monitoring",location:"Ranthambore National Park",deployedDate:"2025-09-15",partner:"Forest Dept",publishedDate:"2026-10-10",tags:["Ecological Management"],body:"Demo use case.",image:"assets/images/usecases/uc-1.webp"}];
+  }
+  if(!WT.DATA.news || !WT.DATA.news.length){
+    WT.DATA.news = [{id:"N1",date:"2026-11-10",title:"Collar alert workflow update",excerpt:"Demo news.",image:"assets/images/news/news-1.webp"}];
+  }
+  if(!WT.DATA.events || !WT.DATA.events.length){
+    WT.DATA.events = [{id:"E1",date:"2026-12-05",title:"Webinar: Collar alerts to ranger action",location:"Online",image:"assets/images/events/ev-1.webp"}];
+  }
+  if(!WT.DATA.integrations || !WT.DATA.integrations.length){
+    WT.DATA.integrations = [{id:"I1",name:"GPS module",category:"Hardware",status:"Supported",description:"Demo"}];
+  }
+  if(!WT.DATA.team || !WT.DATA.team.length){
+    WT.DATA.team = [{id:"TM1",name:"Member 1",role:"Project Lead",note:"edit me"}];
+  }
+  if(!WT.DATA.faq || !WT.DATA.faq.length){
+    WT.DATA.faq = [{id:"Q1",q:"What is WILD TRACK?",a:"Demo answer."}];
+  }
+  if(!WT.DATA.reports || !WT.DATA.reports.length){
+    // derive from animal.reports
+    const reps=[];
+    (WT.DATA.animals||[]).forEach(a=> (a.reports||[]).forEach(r=> reps.push(Object.assign({},r,{species:a.species}))));
+    WT.DATA.reports = reps;
+  }
+})();
 
 // Last synced time
 WT.lastSynced = new Date();
