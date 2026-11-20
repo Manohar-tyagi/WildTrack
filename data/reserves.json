@@ -1,0 +1,158 @@
+[
+  {
+    "id": "R1",
+    "name": "Ranthambore National Park",
+    "lat": 26.02,
+    "lng": 76.5,
+    "area": 392,
+    "desc": "Tiger reserve in Rajasthan.",
+    "boundary": [
+      {
+        "lat": 25.919999999999998,
+        "lng": 76.4
+      },
+      {
+        "lat": 25.919999999999998,
+        "lng": 76.6
+      },
+      {
+        "lat": 26.12,
+        "lng": 76.6
+      },
+      {
+        "lat": 26.12,
+        "lng": 76.4
+      }
+    ]
+  },
+  {
+    "id": "R2",
+    "name": "Sariska Tiger Reserve",
+    "lat": 27.33,
+    "lng": 76.33,
+    "area": 881,
+    "desc": "Tiger reserve in Alwar.",
+    "boundary": [
+      {
+        "lat": 27.229999999999997,
+        "lng": 76.23
+      },
+      {
+        "lat": 27.229999999999997,
+        "lng": 76.42999999999999
+      },
+      {
+        "lat": 27.43,
+        "lng": 76.42999999999999
+      },
+      {
+        "lat": 27.43,
+        "lng": 76.23
+      }
+    ]
+  },
+  {
+    "id": "R3",
+    "name": "Jim Corbett National Park",
+    "lat": 29.53,
+    "lng": 78.94,
+    "area": 1318,
+    "desc": "Oldest national park, Uttarakhand.",
+    "boundary": [
+      {
+        "lat": 29.43,
+        "lng": 78.84
+      },
+      {
+        "lat": 29.43,
+        "lng": 79.03999999999999
+      },
+      {
+        "lat": 29.630000000000003,
+        "lng": 79.03999999999999
+      },
+      {
+        "lat": 29.630000000000003,
+        "lng": 78.84
+      }
+    ]
+  },
+  {
+    "id": "R4",
+    "name": "Kaziranga National Park",
+    "lat": 26.58,
+    "lng": 93.17,
+    "area": 430,
+    "desc": "One-horned rhino, Assam.",
+    "boundary": [
+      {
+        "lat": 26.479999999999997,
+        "lng": 93.07000000000001
+      },
+      {
+        "lat": 26.479999999999997,
+        "lng": 93.27
+      },
+      {
+        "lat": 26.68,
+        "lng": 93.27
+      },
+      {
+        "lat": 26.68,
+        "lng": 93.07000000000001
+      }
+    ]
+  },
+  {
+    "id": "R5",
+    "name": "Bandipur National Park",
+    "lat": 11.66,
+    "lng": 76.62,
+    "area": 874,
+    "desc": "Tiger reserve, Karnataka.",
+    "boundary": [
+      {
+        "lat": 11.56,
+        "lng": 76.52000000000001
+      },
+      {
+        "lat": 11.56,
+        "lng": 76.72
+      },
+      {
+        "lat": 11.76,
+        "lng": 76.72
+      },
+      {
+        "lat": 11.76,
+        "lng": 76.52000000000001
+      }
+    ]
+  },
+  {
+    "id": "R6",
+    "name": "Pench National Park",
+    "lat": 21.65,
+    "lng": 79.3,
+    "area": 758,
+    "desc": "Madhya Pradesh tiger reserve.",
+    "boundary": [
+      {
+        "lat": 21.549999999999997,
+        "lng": 79.2
+      },
+      {
+        "lat": 21.549999999999997,
+        "lng": 79.39999999999999
+      },
+      {
+        "lat": 21.75,
+        "lng": 79.39999999999999
+      },
+      {
+        "lat": 21.75,
+        "lng": 79.2
+      }
+    ]
+  }
+]

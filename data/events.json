@@ -1,0 +1,30 @@
+[
+  {
+    "id": "E1",
+    "date": "2026-12-05",
+    "title": "Webinar: Collar alerts to ranger action",
+    "location": "Online",
+    "image": "assets/images/events/ev-1.webp"
+  },
+  {
+    "id": "E2",
+    "date": "2026-12-06",
+    "title": "Field demo day",
+    "location": "Online",
+    "image": "assets/images/events/ev-2.webp"
+  },
+  {
+    "id": "E3",
+    "date": "2026-12-07",
+    "title": "Conservation tech meetup",
+    "location": "Online",
+    "image": "assets/images/events/ev-3.webp"
+  },
+  {
+    "id": "E4",
+    "date": "2026-12-08",
+    "title": "Data & limitations workshop",
+    "location": "Online",
+    "image": "assets/images/events/ev-4.webp"
+  }
+]
